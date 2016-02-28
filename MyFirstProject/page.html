@@ -1,0 +1,56 @@
+<!doctype html>
+    <html>
+        <head>
+            <link rel="stylesheet" href="https://s3.amazonaws.com/codecademy-content/projects/bootstrap.min.css">
+            <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+            <link rel='stylesheet' type='text/css' href='style.css'
+        </head>
+        <body>
+            <div class='header'>
+                <div class='container'>
+                    <h1>ShitGen</h1>
+                </div>
+            </div>
+            
+            <div class=main>
+                <div class='container'>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class='memgen thumbnail'>
+                                <img src='http://i.telegraph.co.uk/multimedia/archive/03235/potd-husky_3235255k.jpg'>
+                                <h2 class='top-title'> Put ur text here </h2>
+                                <h2 class='bottom-title'>Put ur text here too, bub</h2>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-6">
+                            <div class="tool">
+                                <h2>Create a meme</h2>
+                                <form>
+                                    <div class="form-group">
+                                        <label>URL</label>
+                                        <input id="image-url" type="text" class="form-control">
+                                    </div>
+                                </form>
+                                <form>
+                                    <div class='form-group'>
+                                        <label>Top text</label>
+                                        <input id="top-text" type="text" class="form-control">
+                                    </div>
+                                </form>
+                                <form>
+                                    <div class='form-group'>
+                                        <label>Bot text</label>
+                                        <input id="bottom-text" type="text" class="form-control">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        <script src="https://s3.amazonaws.com/codecademy-content/projects/jquery.min.js"></script>
+        <script src="app.js"></script>            
+        </body>
+    </html>
